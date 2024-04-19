@@ -2,11 +2,6 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 
-// 追記
-// const { body, validationResult } = require('express-validator');
-// app.use(express.urlencoded({ extended: true }));
-
-
 // cors対策
 const cors = require('cors')
 app.use(cors({
